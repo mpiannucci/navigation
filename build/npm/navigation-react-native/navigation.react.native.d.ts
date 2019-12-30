@@ -334,3 +334,11 @@ export class TabBarIOS extends Component<TabBarProps> {}
  * Renders a tab bar
  */
 export class TabBar extends Component<TabBarProps> {}
+
+export interface BottomTabBarAndroidProps {
+    children: React.ReactElement<TabBarItem> | React.ReactElement<TabBarItem>[];
+
+    style?: StyleProp<ViewStyle>;
+}
+
+export class BottomTabBarAndroid extends Component<BottomTabBarAndroidProps> {}
